@@ -1,0 +1,39 @@
+.body{
+    font-family: "Lato", sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    text-transform: uppercase;
+    column-count: 3;
+    align-items: baseline;
+    
+}
+
+.navbar > .links > div {
+    margin-inline: 10px;
+    display: flex;
+
+}
+
+.h1 {
+    font-weight: bold;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-wrapper{
+    margin-inline: 10px;
+    display: flex;
+}
+
+.icon{
+    display: flex;
+    margin-inline: 5px;
+    justify-content: space-between;
+
+}
