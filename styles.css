@@ -1,6 +1,9 @@
 .body{
     font-family: "Lato", sans-serif;
 }
+
+/*Navbar basic elements*/
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -31,9 +34,14 @@
     display: flex;
 }
 
+.icon-wrapper img{
+    width: 40px;
+}
+
 .icon{
     display: flex;
     margin-inline: 5px;
     justify-content: space-between;
 
 }
+
