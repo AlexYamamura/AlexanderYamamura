@@ -7,7 +7,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 30px;
     text-transform: uppercase;
     column-count: 3;
     align-items: baseline;
@@ -45,3 +45,23 @@
 
 }
 
+.icon:hover{
+    display: inline-block;
+    position: relative;
+    animation: bounce 0.5s infinite linear;
+}
+
+/* .bounce:hover{
+    display: inline-block;
+    position: relative;
+    animation: bounce 0.5s infinite linear;
+
+} */
+
+
+@keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
