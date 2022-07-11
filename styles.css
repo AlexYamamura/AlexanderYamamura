@@ -88,7 +88,7 @@
     text-align: center;
 }
 
-.tile-wrapper{
+.tiles-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -100,10 +100,23 @@
     height: 300px;
 }
 
+.tile{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.tile-text-wrapper{
+    position: relative;
+}
 
 .text{
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    width: 100%;
+    top:50%;
+    left:0;
+    
+
 }
 
 .tile:hover img{
