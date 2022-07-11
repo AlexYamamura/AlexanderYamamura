@@ -79,8 +79,9 @@
 }
 
 .profile-wrapper{
-    column-span: 1 
+    column-span: 1;
 }
+
 
 .information-wrapper{
     justify-content: center;
@@ -92,8 +93,25 @@
     grid-template-columns: 1fr 1fr;
 }
 
+
 .tile img{
     position: relative;
     width: 300px;
     height: 300px;
+}
+
+
+.text{
+    display: flex;
+    justify-content: center;
+}
+
+.tile:hover img{
+    opacity:.3;
+    transition: .5s ease;
+}
+
+.tile:hover text{
+    opacity:1;
+    transition: .5s ease
 }
