@@ -67,7 +67,7 @@ body{
 
 /* Content styles */
 
-.content-wrapper{
+.content-wrapper-about{
     display: flex;
     margin-inline: 50px;
     justify-content: space-around;
@@ -130,3 +130,63 @@ body{
 }
 
 /*About Page*/
+
+
+.content-wrapper-home{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+body{
+    margin: 0px;
+}
+    
+.landscapebg {
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cloudsbg{
+    position:absolute;
+    opacity:.5;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    animation: cloudanimate 60s linear infinite;
+}
+
+.fullname {
+    position: absolute;
+    font-size: 250%;
+    color: white;
+    top: 50px;
+    left: 100px;
+    /* -webkit-text-stroke: .5px black; */
+}
+
+@keyframes cloudanimate {
+    0%{background-position: 0px;}
+    100%{background-position: 5440px;}
+}
+
+.description {
+    position: absolute;
+    font-size: 100%;
+    color: white;
+    top: 500px;
+    left: 100px;
+
+}
+
+.continue {
+    position:absolute;
+    font-size: 100%;
+    color: white;
+    bottom: 30px;
+    right:50px;
+}
