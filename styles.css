@@ -115,8 +115,7 @@
     width: 100%;
     top:50%;
     left:0;
-    
-
+    opacity: 0;
 }
 
 .tile:hover img{
@@ -124,7 +123,9 @@
     transition: .5s ease;
 }
 
-.tile:hover text{
+.tile:hover .text{
     opacity:1;
-    transition: .5s ease
+    font-weight: 600;
+    font-size: 175%;
+    transition: .5s ease;
 }
