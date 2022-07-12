@@ -1,15 +1,15 @@
 html, body{
-    
+    scroll-behavior: smooth;
     font-family: 'Questrial', sans-serif;
 }
 
 section{
-    font-size: 100%;;
     height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: lightblue;
 }
 
 
@@ -109,13 +109,13 @@ section{
 .tiles-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
 
 .tile img{
-    position: relative;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 325px;
 }
 
 .tile{
@@ -130,6 +130,7 @@ section{
 
 .text{
     position: absolute;
+    font-weight: 600;
     width: 100%;
     top:40%;
     left:0;
@@ -203,16 +204,26 @@ body{
 
 }
 
-.continue h1{
+.continue a{
+    text-decoration: none;
     position:absolute;
-    font-size: 200%;
+    font-size: 250%;
     color: white;
     bottom: 30px;
     right:50px;
 }
 
-.continue h1:hover {
+.continue a:hover {
     color:skyblue;
 }
 
 
+.resume-wrapper{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.resume-wrapper h1, img{
+    padding: 15px;
+}
