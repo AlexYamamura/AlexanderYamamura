@@ -1,17 +1,35 @@
-body{
+html, body{
+    
     font-family: 'Questrial', sans-serif;
 }
 
+section{
+    font-size: 100%;;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 /*Navbar basic elements*/
 
+
+
 .navbar {
+    text-align: center;
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     padding: 30px;
-    column-count: 3;
     align-items: baseline;
-    
+    z-index: 99999;
+    font-size: 150%;
 }
+
+
 
 .navbar > .links > div {
     margin-inline: 10px;
@@ -19,9 +37,10 @@ body{
 
 }
 
-.navbar h1 {
-    font-size: 300%;
+.container-about{
+    background-color: bisque;
 }
+
 
 .links{
     display: flex;
@@ -65,7 +84,7 @@ body{
     100% { top: 0; }
 }
 
-/* Content styles */
+/* About Content styles */
 
 .content-wrapper-about{
     display: flex;
@@ -129,21 +148,22 @@ body{
     transition: .5s ease;
 }
 
-/*About Page*/
-
-
-.content-wrapper-home{
-    position: relative;
-    display: flex;
-    align-items: center;
-}
 
 body{
     margin: 0px;
 }
+
+/*Home Page*/
+
+.container-home, .content-wrapper-home{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    align-items: center;
+}
     
 .landscapebg {
-    height: 700px;
+    height: 100%;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -162,7 +182,7 @@ body{
 
 .fullname {
     position: absolute;
-    font-size: 250%;
+    font-size: 300%;
     color: white;
     top: 50px;
     left: 100px;
@@ -178,15 +198,21 @@ body{
     position: absolute;
     font-size: 100%;
     color: white;
-    top: 500px;
+    bottom: 150px;
     left: 100px;
 
 }
 
-.continue {
+.continue h1{
     position:absolute;
-    font-size: 100%;
+    font-size: 200%;
     color: white;
     bottom: 30px;
     right:50px;
 }
+
+.continue h1:hover {
+    color:skyblue;
+}
+
+
