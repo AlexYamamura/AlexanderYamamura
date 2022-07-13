@@ -121,9 +121,9 @@ section{
     width: 40%;
 }
 
-.wingone img{
+/* .wingone img{
     width:200px;
-}
+} */
 
 body{
     margin: 0px;
@@ -191,7 +191,78 @@ body{
 .continue a:hover {
     color:skyblue;
 }
+/*History section*/
+.companies-wrapper{
+    height: 100%;
+    text-align: center;
+}
 
+.companies-wrapper h1{
+    position: relative;
+    top: 0;
+    padding: 30px;
+    font-size: 300%;
+}
+
+.companies-wrapper img{
+    background-color: blanchedalmond;
+    border-radius: 10px 50px 10px;
+    border:solid black;
+    transition: all .5s ease;
+}
+
+
+.companies-wrapper img:hover{
+    transform: scale(1.4);
+    filter:brightness(.1);
+}
+
+.companies-wrapper img:hover+.subtitle-wrapper{
+    display: block;
+}
+
+.subtitle-wrapper{
+    transition: .75s;
+    font-weight: 500;
+    display: none;
+    pointer-events: none;
+    position: absolute;
+    top:10px;
+    left: 75px;
+    width: 75%;
+}
+
+.subtitle{
+    color: white;
+    font-weight: 500;
+    font-size: 125%;
+}
+
+.neudesic-wrapper{
+    position: relative;
+}
+
+.uci-wrapper{
+    position: relative;
+    right:200px;
+}
+
+.taecoding-wrapper{
+    position: relative;
+    left:300px;
+}
+
+.uci-wrapper img{
+    width: 500px;
+}
+
+.taecoding-wrapper img{
+    width: 600px;
+}
+
+.neudesic-wrapper img{
+    width: 400px;
+}
 /*Resume section*/
 
 .resume-wrapper{
