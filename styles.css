@@ -324,7 +324,7 @@ body{
 
 /* Projects section */
 
-#project-menu-wrapper{
+#project-menu-anchor{
     width: 100%;
     background-size:cover;
     background-position: center;
