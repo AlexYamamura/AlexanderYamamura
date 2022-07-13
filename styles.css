@@ -348,6 +348,7 @@ body{
 
 .project-tile{
     border-radius: 50px;
+    background-color: beige;
     border:solid 10px black;
 }
 
