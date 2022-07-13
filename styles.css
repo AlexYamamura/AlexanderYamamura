@@ -13,11 +13,14 @@ section{
 }
 
 
+
+
 /*Navbar basic elements*/
 
 
 
 .navbar {
+    background-color: aquamarine;
     text-align: center;
     position: sticky;
     top: 0;
@@ -317,4 +320,37 @@ body{
     50% { top: -0.3em; }
     70% { top: -0.5em; }
     100% { top: 0; }
+}
+
+/* Projects section */
+
+#project-menu-wrapper{
+    width: 100%;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project-title-wrapper{
+    text-align: center;
+    position: relative;
+    top: 0;
+    color: white;
+    font-size: xx-large;
+
+}
+
+.project-tiles-wrapper{
+    display: flex;
+    text-align: center;
+    gap: 50px;
+}
+
+.project-tile{
+    border-radius: 50px;
+    border:solid 10px black;
+}
+
+.project-tile img{
+    width: 300px;
 }

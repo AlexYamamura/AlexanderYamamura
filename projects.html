@@ -1,58 +1,68 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>About</title>
+    <title>Projects</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
     <link rel = "stylesheet" href = "styles.css">
   </head>
   <body>
-    <div class="container-about">
-        <div class = "navbar">
-            <div class = "links">
-                <div><a href = "home.html">Home</a></div>
-                <div><a href = "about.html">About</a></div>
-                <div><a href = "projects.html">Projects</a></div>
-                <div><a href="Contact">Contact</a></div>
+    
+    <section id = "project-menu-wrapper" style="background-image:url(icons/phone2.svg)">
+        <div class = "project-content-wrapper">
+            <div class = "project-title-wrapper">
+                <h1>More about the projects I've worked on</h1>
+            </div> 
+    
+            <div class = "project-tiles-wrapper">
+                <div class = "project-tile">
+                    <div class = "wordle-wrapper">
+                        <h1>Wordle Word Bank</h1>
+                        <img src = "icons/wordle.svg">
+                    </div>
+                </div>
+
+                <div class = "project-tile">
+                    <h1>Personal Website</h1>
+                    <div class = "pwebsite-wrapper">
+                        <img src = "icons/pwebsite.png">
+                    </div>
+                </div>
+
+                <div class = "project-tile">
+                    <h1>Autonomous Target Robot</h1>
+                    <div class = "robot-wrapper">
+                        <img src = "icons/bullseye.svg">
+                    </div>
+                </div>
             </div>
-
-            <div class = "icon-wrapper">
-                <div class = "icon">
-                    <a href="https://github.com/AlexYamamura">
-                        <img src = "icons/github.svg" alt = "Github">
-                    </a>
-                </div>
-
-                <div class = "icon">
-                    <a href="https://www.linkedin.com/in/alexander-yamamura/">
-                        <img src = "icons/linkedin.png" alt = "LinkedIn">
-                    </a>
-                </div>
-
-                <div class = "icon">
-                    <a href="https://www.instagram.com/alexyamamura/">
-                        <img src = "icons/insta.png" alt = "instagram">
-                    </a>
-                </div>
-            </div>
-
         </div>
 
-        <div class = "content-wrapper-about">
-            <div class = "profile-wrapper">
-                <img src = "images/fullbody-removebg-flipped.png" alt = "Profile Picture">
-            </div>
-            
-            <div class = "summary-wrapper">
-                <div class = "summary-text">
-                    <p>This is my summary that I will add</p>
-                </div>
-            </div>
+    </section>
 
-
+    <div class = "navbar">
+        <div class = "links">
+            <div><a href = "home.html">Home</a></div>
+            <div><a href = "#project-menu-wrapper">Projects</a></div>
+            <div><a href = "#personal-website-wrapper">Personal Website</a></div>
+            <div><a href = "#wordle-wrapper">Wordle</a></div>
+            <div><a href = "#robot-wrapper">Autonomous Target Robot</a></div>
         </div>
     </div>
+
+    <section id = "personal-website-wrapper">
+        
+    </section>
+
+    <section id = "wordle-wrapper">
+
+    </section>
+
+    <section id = "robot-wrapper">
+
+    </section>
+
   </body>
   <script>
   </script>
