@@ -405,3 +405,20 @@ body{
     font-size: 175%;
     padding: 30px;
 }
+
+.wordle-midscreen{
+    display: flex;
+    gap: 10px;
+    font-size: 175%;
+    padding: 30px;
+}
+
+.small-icon img{
+    width:100px;
+}
+
+.small-icon:hover{
+    display: inline-block;
+    position: relative;
+    animation: bounce 0.5s infinite linear;
+}
