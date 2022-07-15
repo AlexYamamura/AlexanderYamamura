@@ -20,13 +20,12 @@ section{
 
 
 .navbar {
-    background-color: aquamarine;
+    background-color: lightslategray;
     text-align: center;
     position: sticky;
     top: 0;
     display: flex;
     justify-content: space-between;
-    padding: 30px;
     align-items: baseline;
     z-index: 99999;
     font-size: 150%;
@@ -34,22 +33,36 @@ section{
 
 
 
-.navbar > .links > div {
+.navbar > #links{
     margin-inline: 10px;
     display: flex;
 
 }
+
 
 .container-about{
     background-color: bisque;
 }
 
 
-.links{
-    display: flex;
-    justify-content: space-between;
+#links{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
+#links li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#links li a:hover{
+    background-color: rgb(103, 125, 145);
+}
 
 
 /* About Content styles */
@@ -337,6 +350,7 @@ body{
     top: 0;
     color: white;
     font-size: xx-large;
+    text-shadow: 2px 2px 4px black;
 
 }
 
@@ -354,4 +368,163 @@ body{
 
 .project-tile img{
     width: 300px;
+}
+
+.project-content-wrapper{
+    text-align: center;
+}
+/*Wordle Content*/
+
+
+#wordle-anchor{
+    display: block;
+    text-align: center;
+}
+
+.project-intro{
+    position:relative;
+    top:30px;
+}
+
+.project-title{
+    background-color: darkblue;
+}
+
+.project-intro h1{
+    margin:0px;
+    padding: 30px;
+    color: white;
+    font-size:300%;
+}
+
+.wordle-intro-content{
+    display: flex;
+    gap: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 175%;
+    padding: 30px;
+}
+
+.wordle-content-wrapper{
+    text-align: center;
+    display: flex;
+
+}
+.wordle-content-wrapper img{
+    width: 350px;
+}
+
+.wordle-homescreen{
+    display: flex;
+    gap: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 175%;
+    padding: 30px;
+}
+
+.wordle-midscreen{
+    display: flex;
+    gap: 10px;
+    font-size: 175%;
+    padding: 30px;
+}
+
+.small-icon img{
+    width:100px;
+}
+
+.small-icon:hover{
+    display: inline-block;
+    position: relative;
+    animation: bounce 0.5s infinite linear;
+}
+
+
+/*Personal Website*/
+#pwebsite-anchor{
+    display: block;
+    text-align: center;
+}
+
+.pwebsite-intro-content{
+    display: flex;
+    gap: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 175%;
+    padding: 30px;
+}
+
+.pwebsite-intro-content img{
+    width: 600px;
+}
+
+.pwebsite-background-wrapper{
+    display: block;
+    gap: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 175%;
+    padding: 30px;
+    text-align: left;
+}
+
+.pwebsite-conclusion{
+    display: flex;
+    align-items: center;
+}
+
+.project-heading h1{
+    margin:0px;
+    padding: 30px;
+    color: white;
+    font-size:300%;
+    text-shadow: 2px 2px 4px black;
+}
+
+/* Senior Design Robot */
+
+#robot-anchor{
+    display: block;
+    text-align: center;
+}
+
+.robot-intro-content{
+    display: flex;
+    gap: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 175%;
+    padding: 30px;
+}
+
+.robot-background-wrapper{
+    display: block;
+    gap: 10px;
+    padding:20px;
+    font-size: 150%;
+    text-align: left;
+}
+
+.robot-challenge-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.poster-wrapper img{
+    width: 750px;
+}
+
+.closing-wrapper{
+    display: block;
+    text-align: center;
+}
+
+.closing-wrapper img{
+    width: 250px;
 }

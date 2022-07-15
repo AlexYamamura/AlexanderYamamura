@@ -48,26 +48,284 @@
     </section>
 
     <div class = "navbar">
-        <div class = "links">
-            <div><a href = "home.html">Home</a></div>
-            <div><a href = "#project-menu-anchor">Top</a></div>
-            <div><a href = "#personal-website-anchor">Personal Website</a></div>
-            <div><a href = "#wordle-anchor">Wordle</a></div>
-            <div><a href = "#robot-anchor">Autonomous Target Robot</a></div>
+        <ul id = "links">
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "#project-menu-anchor">Top</a></li>
+            <li><a href = "#pwebsite-anchor">Personal Website</a></li>
+            <li><a href = "#wordle-anchor">Wordle</a></li>
+            <li><a href = "#robot-anchor">Autonomous Target Robot</a></li>
         </div>
     </div>
 
     <section id = "pwebsite-anchor">
+        <div class = "project-intro">
+            <div class = "project-title">
+                <h1>Personal Website</h1>
+            </div>
+            <div class = "pwebsite-intro-content">
+                <img src = "images/website-design.svg">
+                <p>This is the website you are on right now! While looking into libraries and frameworks I could use to build this site,
+                    I decided to stick to just HTML, CSS and JavaScript. I plan on utilizing Angular and React for other projects which are more
+                    suited to bindings and responsive inputs, and focused on creating a clean look for the site with simple animations and graphics.
+                    Here you will find the basic summary of the projects I have worked on and what I can do. I am always trying to learn new libraries 
+                    and frameworks so be on the lookout for new projects that showcase these skills!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class = "project-content-wrapper">
+            <div class = "project-heading">
+                <h1>Some background</h1>
+            </div>
+            <div class = "pwebsite-background-wrapper">
+                <p>I actually was first introduced to HTML back in elementary school during one of our classes on the internet. I saw how 
+                    easy it was to actually start creating an entire website from scratch, just with a couple of divs! Of course those websites 
+                    were basically big boxes, but eventually we learned about CSS and how to style the pages we built. Still not winning any awards, 
+                    but the box model of margins and padding, the hexadecimal color schemes, and the basic layout of designing webpages all made 
+                    a lasting impact on me then and have carried over to into the present. Later as a coding instructor, I was asked to learn about Angular 
+                    so I could help teach a class, and I began my deeper dive into frameworks that could help create responsive web pages. This 
+                    was where it became clear how a website worked under the hood, and how information was utilized by webpages to respond to 
+                    requests and inputs. I also learned how to use graphics and CSS animations to help highlight user interactivity, and what 
+                    items were clickable or what buttons to press.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class = "project-content-wrapper">
+            <div class = "project-heading">
+                <h1>Focus Points</h1>
+            </div>
+            <div class = "pwebsite-background-wrapper">
+                <p>Some of the things I focused on while building this website were good visuals and CSS animations. I wanted to make sure 
+                    there was a clean flow to the webpage, as well as a clear place to find out more information about me and my projects.
+                    These included:
+                </p>
+                <ul>
+                    <li>Cloud animation on homepage</li>
+                    <li>Clickable tile images with links</li>
+                    <li>Anchor tags for page jumps</li>
+                    <li>Sticky navbar for scrollability</li>
+                    <li>PDF previewer</li>
+                </ul>
+                <div class = "pwebsite-conclusion">
+                    <p>
+                        I especially loved how simple a lot of the CSS animations were to implement. It did not take a lot of code to get an 
+                        image to jump up and down, or to expand on hover, or darken a background. Finding out new tricks and methods to add depth 
+                        to the webpage was very exciting, and I will definitely be adding these skills to any front-end projects in the future. 
+                    </p>
+                    <div class = "small-icon">
+                        <a href="https://github.com/AlexYamamura/PersonalWebsite">
+                            <img src = "icons/github.svg" alt = "Github">
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id ="wordle-anchor">
+        <div class = "project-intro">
+            <div class = "project-title">
+                <h1>Wordle Wordbank Project:</h1>
+            </div>
+            <div class = "wordle-intro-content">
+                <img src = "wordle/wordle-example2.png">
+                <p>The inspiration for this project was the popular word puzzle game Wordle. I found myself struggling to figure out which words could match my clues, 
+                    and so I developed this app to help narrow down the possible words when playing. In this
+                    game, a 5 letter word of the day is chosen. You are given 5 guesses which all must be valid english words. Each guess tells you 
+                    whether each letter appears in word in the right spot, is in the word but in the wrong place, or not in the word, denoted by the colors 
+                    green, yellow, and grey respectively. The goal is to correctly guess the word by the end of your 6th guess. I utilized 
+                    Android Studio for the frontend app and Django Framework to set up a database and keep track of user guesses and possible remaining words. 
+                    The goal of the project was to create a functional end-to-end product which correctly created a list of words that your guesses had narrowed down to.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id ="wordle-body">
+        <div class = "wordle-content-wrapper">
+            <div class = "wordle-homescreen">
+                <img src = "wordle/wordlehomescreen.png">
+                <div class = "wordle-homescreen-middle">
+                    <p>This is the home screen of the application, where users can input the guess that they attempted into Wordle <br> &#8592 </p>
+                    <p>You are able to type in your word selection and click the check button to place the word into the grid. The get words button
+                        also appears once a valid word has been input<br> &#8594 </p>
+                </div>
+                
+                <img src = "wordle/wordleapp-check.png">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class = "wordle-content-wrapper">
+            <div class = "wordle-homescreen">
+                <img src = "wordle/wordle-colors-step1.png">
+                <div class = "wordle-homescreen-middle">
+                    <p>Tapping on the grey boxes allows you to change the color to match the Wordle format and indicate which guesses were correct<br> &#8592 </p>
+                    <p>Once complete, you are able to click the get words button to show the possible words from your guess. This is a scrollable
+                        textbox where words can be tapped to add directly to the grid, or type another guess <br> &#8594 </p>
+                </div>
+                
+                <img src = "wordle/wordle-step2.png">
+            </div>
+        </div>
         
     </section>
 
-    <section id = "wordle-anchor">
+    <section>
+        <div class = "wordle-content-wrapper">
+            <div class = "wordle-midscreen">
+                <img src = "wordle/wordle-step3.png">
 
+                <img src = "wordle/wordle-step4.png">
+                <div class = "wordle-homescreen-middle">
+                    <p>Following along the example guesses, we can see that once proud is checked, there are only 2 possible words leftover</p>
+                    <p> At this point, we see that we actually had a 50-50 chance to get the correct answer. The app does allow you
+                        to continue guessing other words however, so inputting our last word does leave us with only one option, input! </p>
+                </div>
+                
+                <img src = "wordle/wordle-step6.png">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class = "wordle-content-wrapper">
+            <div class = "wordle-homescreen">
+                <img src = "wordle/wordle-extra-step7.png">
+                <div class = "wordle-homescreen-middle">
+                    <p>At this stage we got our answer! While not the prettiest, this app showcased my learning of Android Studios and Django. I utilized Java
+                        for the frontend (although I did have the urge to try Kotlin) since it was a familiar language and I wanted to focus on one thing at a time. 
+                        Having never used Django before but familiar with REST APIs, the framework allowed me to use Python to jumpstart the project, and I later improved 
+                        on the backend by connecting the app to a PostgreSQL database so that I could store each session. Completing the actual wordbank logic was 
+                        the easy part of this project, and I definitely had to overcome many challenges to get exactly the output I wanted. Thankfully, I now have a clear 
+                        idea of how these tools can be used to create interesting projects for the future!
+                    </p>
+
+                    <div class = "small-icon">
+                        <a href="https://github.com/AlexYamamura/LowLvlWordle2">
+                            <img src = "icons/github.svg" alt = "Github">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id = "robot-anchor">
-
+        <div class = "project-intro">
+            <div class = "project-title">
+                <h1>Autonomous Target Robot</h1>
+            </div>
+            <div class = "robot-intro-content">
+                <img src = "sdproject/sdrobot.png">
+                <p>This was our senior design project at UCI. For the project 3 team members and I worked with a navy liason who was our advisor and met 
+                    with weekly to discuss the features of our robot. The goal of the project was to build a prototype autonomous target robot which 
+                    would help the accuracy of soldiers at the shooting range. For this project we worked with a RaspberryPi along with several modules 
+                    such as a GPS, magnetometer, IMU, and motor arm. The main logic was written in Python, with a front-end UI in Java Swing. 
+                    Our prototype was capable of moving within a 25ftx25ft box where it generated 5 random locations to stop, turn, and detect a hit by 
+                    shooters, before returning back to the base location. Over the course of the project, I learned many things about using these 
+                    modules to handle real world problems that machines have to face. Implementing all the features was a challenge, but in the end 
+                    our team delivered a finished project that exceeded our requirements.
+                </p>
+            </div>
+        </div>
     </section>
+
+    <section id = "robot-anchor">
+        <div class = "project-intro">
+            <div class = "project-heading">
+                <h1>Demo Video</h1>
+            </div>
+            <!-- <video width = "1000" height="600" controls>
+                <source src = "sdproject/Senior Design Project Winter 2020 Showcase.mp4">
+                Your browser does not support this video
+            </video> -->
+            
+
+        </div>
+    </section>
+
+
+
+
+    <section>
+        <div class = "project-content-wrapper">
+            <div class = "project-heading">
+                <h1>Notable Challenges</h1>
+            </div>
+            <div class = "robot-background-wrapper">
+                <p>
+                    I mainly dealt with the back-end logic for the movement and function of the robot. This included all aspects of the 
+                    movement such as its GPS location, direction, turn angles, raising the target arm, and recording hits. There were several 
+                    challenges to overcome with each feature.
+                </p>
+                <div class = "robot-challenge-wrapper">
+                    <div class ="robot-challenge">
+                        <h2>Movement</h2>
+                        <p>
+                            The main issue was how to go a specific distance using calculations from the GPS module. To do this, the initial 
+                            thought was to utilize the tread motors for a specific interval, and use the amount of time to determine the distance. 
+                            This worked for flat ground, however if on uneven terrain this would not work. A PID controller was used in conjunction with 
+                            this method, and this allowed us to determine whether we had actually made it to our desired GPS location, or if we needed to 
+                            continue to move forward, and correct for errors.
+                        </p>
+                    </div>
+                    <div class ="robot-challenge">
+                        <h2>Angles</h2>
+                        <p>
+                            At each location, the robot had to turn to face the base station after movement, so that the user could shoot at the 
+                            target face. Due to the modules having some error when determining the exact angle, a rapid sample of the gps locations 
+                            were averaged together, and calculations using the Pythagorean Theorem were done to point in the correct direction by 
+                            moving each tread in opposite directions to turn.
+                        </p>
+                    </div>
+                    <div class ="robot-challenge">
+                        <h2>Hit Detection</h2>
+                        <p>
+                            Initially the hit detection was going off during movement, since an IMU was mounted on the arm to detect z-axis 
+                            movement. The simple fix was to disable detection until the robot had reached a position, and set a high threshold 
+                            to trigger a hit counter. This was allowable since it was meant to be used outdoors where bullets would be moving 
+                            much faster than other forces.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id = "robot-anchor">
+        <div class = "project-intro">
+            <div class = "project-heading">
+                <h1>Official Page</h1>
+                <div class = "poster-wrapper">
+                    <img src = "sdproject/robot-poster.png">
+                </div>
+                <h2>You can find our full project at the UCI Engineering archive
+                    <a href = "https://projects.eng.uci.edu/projects/2019-2020/autonomous-targeting-robot">
+                        Here!
+                    </a>
+                </h2>
+            </div>
+            
+        </div>
+    </section>
+
+    <section>
+        <div class = "closing-wrapper">
+            <h1>Thank you for checking out my page! Check back for more projects, I am constantly building something new!
+            </h1>
+            <img src = "images/gearsgif.gif">
+        </div>
+    </section>
+    
 
   </body>
   <script>
