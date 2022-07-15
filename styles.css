@@ -82,6 +82,7 @@ section{
 
 .profile-wrapper img{
     height: 90vh;
+    width: 22vw;
 }
 
 
@@ -433,12 +434,18 @@ body{
     width: 40vw;
 }
 
+.wordle-intro-content p{
+    height: 85vh;
+    width: 85vw;
+}
+
 .wordle-content-wrapper{
     text-align: center;
     display: flex;
 
 }
 .wordle-content-wrapper img{
+    height: 80vh;
     width: 20vw;
 }
 
@@ -459,6 +466,7 @@ body{
 }
 
 .small-icon img{
+    height: 10vh;
     width:5vw;
 }
 
@@ -485,7 +493,7 @@ body{
 }
 
 .pwebsite-intro-content img{
-    width: 60vh;
+    width: 35vw;
 }
 
 .pwebsite-background-wrapper{
@@ -549,7 +557,8 @@ body{
 
 
 .poster-wrapper img{
-    width: 80vh;
+    height: 70vh;
+    width: 65vw;
 }
 
 .closing-wrapper{
