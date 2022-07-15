@@ -26,6 +26,10 @@ section{
     top: 0;
     display: flex;
     justify-content: space-between;
+<<<<<<< HEAD
+=======
+    padding: 10px;
+>>>>>>> 51ce5e8dec88e4b8886f7f2eb2e049e2f9841741
     align-items: baseline;
     z-index: 99999;
     font-size: 150%;
@@ -370,11 +374,19 @@ body{
     width: 300px;
 }
 
+<<<<<<< HEAD
 .project-content-wrapper{
     text-align: center;
 }
 /*Wordle Content*/
 
+=======
+/*Wordle Content*/
+
+/* .wordle-content-wrapper{
+    display: flex;
+} */
+>>>>>>> 51ce5e8dec88e4b8886f7f2eb2e049e2f9841741
 
 #wordle-anchor{
     display: block;
@@ -386,10 +398,13 @@ body{
     top:30px;
 }
 
+<<<<<<< HEAD
 .project-title{
     background-color: darkblue;
 }
 
+=======
+>>>>>>> 51ce5e8dec88e4b8886f7f2eb2e049e2f9841741
 .project-intro h1{
     margin:0px;
     padding: 30px;
@@ -439,6 +454,7 @@ body{
     display: inline-block;
     position: relative;
     animation: bounce 0.5s infinite linear;
+<<<<<<< HEAD
 }
 
 
@@ -527,4 +543,6 @@ body{
 
 .closing-wrapper img{
     width: 250px;
+=======
+>>>>>>> 51ce5e8dec88e4b8886f7f2eb2e049e2f9841741
 }
