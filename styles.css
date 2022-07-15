@@ -69,15 +69,19 @@ section{
 
 .content-wrapper-about{
     display: flex;
-    margin-inline: 50px;
+    margin-inline: 2.5;
     justify-content: space-around;
-    padding: 30px;
+    padding: 1.5vw;
     column-count: 3;
     align-items: center;
 }
 
 .profile-wrapper{
     column-span: 1;
+}
+
+.profile-wrapper img{
+    height: 90vh;
 }
 
 
@@ -89,13 +93,13 @@ section{
 .tiles-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 2vh;
 }
 
 
 .tile img{
-    width: 400px;
-    height: 325px;
+    width: 30vw;
+    height: 40vh;
 }
 
 .tile{
@@ -125,13 +129,13 @@ section{
 .tile:hover .text{
     opacity:1;
     font-weight: 600;
-    font-size: 175%;
+    font-size: 2vw;
     transition: .5s ease;
 }
 
 .summary-wrapper{
     display: flex;
-    font-size: 150%;
+    font-size: 2vw;
     justify-content: center;
     text-align: center;
     width: 40%;
@@ -174,10 +178,10 @@ body{
 
 .fullname {
     position: absolute;
-    font-size: 300%;
+    font-size: 3vw;
     color: white;
-    top: 50px;
-    left: 100px;
+    top: 5vh;
+    left: 5vw;
     /* -webkit-text-stroke: .5px black; */
 }
 
@@ -188,20 +192,19 @@ body{
 
 .description {
     position: absolute;
-    font-size: 100%;
     color: white;
-    bottom: 150px;
-    left: 100px;
+    bottom: 22vh;
+    left: 5vw;
 
 }
 
 .continue a{
     text-decoration: none;
     position:absolute;
-    font-size: 250%;
+    font-size: 2vw;
     color: white;
-    bottom: 30px;
-    right:50px;
+    bottom: 3vh;
+    right: 2.5vw;
 }
 
 .continue a:hover {
@@ -216,8 +219,8 @@ body{
 .companies-wrapper h1{
     position: relative;
     top: 0;
-    padding: 30px;
-    font-size: 300%;
+    padding: 3vh;
+    font-size: 3vw;
 }
 
 .companies-wrapper img{
@@ -243,41 +246,42 @@ body{
     display: none;
     pointer-events: none;
     position: absolute;
-    top:10px;
-    left: 75px;
+    top:1vh;
+    left: 4vw;
     width: 75%;
 }
 
 .subtitle{
     color: white;
     font-weight: 500;
-    font-size: 125%;
+    font-size: 1vw;
 }
 
 .neudesic-wrapper{
+    margin: 2vh;
     position: relative;
 }
 
 .uci-wrapper{
     position: relative;
-    right:200px;
+    right:10.5vw;
 }
 
 .taecoding-wrapper{
     position: relative;
-    left:300px;
+    left:17vw;
 }
 
 .uci-wrapper img{
-    width: 500px;
+    width: 30vw;
 }
 
 .taecoding-wrapper img{
-    width: 600px;
+    width: 32vw;
 }
 
 .neudesic-wrapper img{
-    width: 400px;
+    width: 25vw;
 }
 /*Resume section*/
 
@@ -288,7 +292,17 @@ body{
     align-items: center;
 }
 .resume-wrapper h1, img{
-    padding: 15px;
+    padding: 1.6vh;
+}
+
+.resume-wrapper iframe{
+    width: 50vw;
+    height: 85vh;
+}
+
+.resume-wrapper img{
+    width: 5.2vw;
+    height: 10.4vh;
 }
 
 /*socials section*/
@@ -300,16 +314,16 @@ body{
 
 .icon-wrapper{
     display: inline-flex;
-    margin-inline: 10px;
+    margin-inline: .5vw;
 }
 
 .icon-wrapper img{
-    width: 100px;
+    width: 5.2vw;
 }
 
 .icon{
     display: flex;
-    margin-inline: 5px;
+    margin-inline: .25vw;
     justify-content: space-between;
 
 }
@@ -416,6 +430,7 @@ body{
 
 .wordle-intro-content img{
     height:60vh;
+    width: 40vw;
 }
 
 .wordle-content-wrapper{
