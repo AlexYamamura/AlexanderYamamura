@@ -472,7 +472,7 @@ body{
 
 .small-icon img{
     height: 10vh;
-    width:5vw;
+    width: 5vw;
 }
 
 .small-icon:hover{
@@ -503,13 +503,28 @@ body{
 
 .pwebsite-background-wrapper{
     display: block;
-    gap: 2vh;
+    gap: 2vw;
     margin-left: 8vw;
     margin-right: 8vw;
     font-size: 2vw;
     padding: 4vh;
     text-align: left;
 }
+
+.pwebsite-background-list{
+    align-items: center;
+    display: flex;
+}
+
+.pwebsite-background ul{
+    float:left;
+}
+
+.pwebsite-background-links{
+    float: right;
+    display: flex;
+}
+
 
 .pwebsite-conclusion{
     display: flex;
