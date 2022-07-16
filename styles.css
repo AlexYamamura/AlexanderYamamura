@@ -4,7 +4,7 @@ html, body{
 }
 
 section{
-    height: 100vh;
+    max-height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -69,9 +69,8 @@ section{
 
 .content-wrapper-about{
     display: flex;
-    margin-inline: 2.5;
+    margin-inline: 10vw;
     justify-content: space-around;
-    padding: 1.5vw;
     column-count: 3;
     align-items: center;
 }
@@ -81,8 +80,8 @@ section{
 }
 
 .profile-wrapper img{
-    height: 90vh;
-    width: 22vw;
+    max-height: 90vh;
+    max-width: 22vw;
 }
 
 
@@ -139,8 +138,9 @@ section{
     font-size: 2vw;
     justify-content: center;
     text-align: center;
-    width: 40%;
+    margin: 5vw;
 }
+
 
 /* .wingone img{
     width:200px;
@@ -213,7 +213,6 @@ body{
 }
 /*History section*/
 .companies-wrapper{
-    height: 100%;
     text-align: center;
 }
 
@@ -370,6 +369,8 @@ body{
 }
 
 .project-tiles-wrapper{
+    margin-left: 5vw;
+    margin-right: 5vw;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -378,13 +379,15 @@ body{
 }
 
 .project-tile{
+    width: 20vw;
     border-radius: 50px;
     background-color: beige;
     border:solid 10px black;
 }
 
 .project-tile img{
-    width: 16vw;
+    height: 70%;
+    width: 80%; 
 }
 
 .project-content-wrapper{
@@ -404,6 +407,8 @@ body{
 }
 
 .project-title{
+    position: relative;
+    top:3vh;
     background-color: darkblue;
 }
 
@@ -445,8 +450,8 @@ body{
 
 }
 .wordle-content-wrapper img{
-    height: 80vh;
-    width: 20vw;
+    max-height: 80vh;
+    max-width: 20vw;
 }
 
 .wordle-homescreen{
@@ -511,12 +516,17 @@ body{
     align-items: center;
 }
 
+
 .project-heading h1{
     margin:0px;
     padding: 4vh;
     color: white;
     font-size:3vw;
     text-shadow: 2px 2px 4px black;
+}
+
+.project-heading h2{
+    margin: 0px;
 }
 
 /* Senior Design Robot */
@@ -536,8 +546,8 @@ body{
 }
 
 .robot-intro-content img{
-    height: 60vh;
-    width: 20vw;
+    max-height: 60vh;
+    max-width: 20vw;
 }
 
 .robot-background-wrapper{
@@ -557,15 +567,23 @@ body{
 
 
 .poster-wrapper img{
-    height: 70vh;
-    width: 65vw;
+    max-height: 70vh;
+    max-width: 65vw;
 }
 
 .closing-wrapper{
-    display: block;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
-.closing-wrapper img{
-    width: 18vw;
+.closing-text{
+    margin-top: 10vh;
+    display: block;
+    position: relative;
+    
+}
+
+.closing-text img{
+    max-width: 18vw;
 }
